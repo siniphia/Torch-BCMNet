@@ -12,15 +12,6 @@ RSZ_H = 256
 REAL_W = 50
 REAL_H = 50
 
-# path params
-PROJECT_NAME = 'MULTISINUS'
-PROJECT_PATH = "/home/lkr/PROJECTS/multisinus_torch/"
-DATA_PATH = "/data/SNUBH/sinusitis/RAW_DEID/"
-TRAIN_PATH = "sinus_train_deid/"
-VTSNUBH_PATH = "sinus_vtsnubh_deid/"
-VTSNUH_PATH = "sinus_vtsnuh_deid/"
-XLSX_PATH = "/home/lkr/DATASETS/sinusitis/"
-
 
 class SinusitisDataset(Dataset):
     def __init__(self, data_path, xlsx_path, run_type, data_size, transform):
