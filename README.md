@@ -9,5 +9,5 @@ Classifier utilizing geometric correlation score between two images
 
 ## Files
 + dataloader.py : prepare and augment dataset
-+ main.py : train and evaluate models
++ main.py : train and evaluate models (modifying)
 + bcmnet.py : bilateral correlation map based network using resnet as backbone model
